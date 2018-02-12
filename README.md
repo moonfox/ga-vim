@@ -9,4 +9,12 @@ When you clone it, then
 
 to install Vundle
 
+## Install YouCompleteMe
+```
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
 
+```
+
+## 升级vim
+`brew upgrade vim --with-python3`
