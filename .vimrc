@@ -15,7 +15,6 @@ set background=dark
 colorscheme flattown
 set t_Co=256
 
-
 "==========================================
 " Display Settings 展示/排版等界面格式设置
 "==========================================
@@ -54,6 +53,12 @@ set tw=78 fo+=Mm
 " set wrap
 " 设置不自动换行
 " set nowrap
+
+" 设置相对行号
+ set relativenumber
+
+" 显示80字符分割线
+set colorcolumn=81
 
 "==========================================
 " Vundle Settings 插件
